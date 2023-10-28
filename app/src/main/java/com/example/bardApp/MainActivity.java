@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
 
         RequestBody body=RequestBody.create(jsonBody.toString(),JSON);
         Request request=new Request.Builder()
-                .url("https://generativelanguage.googleapis.com/v1beta2/models/text-bison-001:generateText?key=AIzaSyBA9U7lpnnv-i6jnHcpbCY3CbfOOU_XKDU")
+                .url("https://generativelanguage.googleapis.com/v1beta2/models/text-bison-001:generateText?key=[Enter Your API Here]")
                 .post(body)
                 .build();
 
